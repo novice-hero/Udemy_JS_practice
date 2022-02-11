@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pingpong</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="./pingpong.jpg" alt="pingpong" class="pingpongImg" />
+        <div class="scoreView">
+          <span class="p1Score">0</span>to<span class="p2Score">0</span>
+        </div>
+        <div class="scoreGoal">
+          Playing To
+          <select class="scoreBox">
+            <option value="ready" selected>선택</option>
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+            <option value="11">11</option>
+          </select>
+        </div>
+        <div class="btns">
+          <button class="p1Button">+1 Player 1</button>
+          <button class="reset">Reset</button>
+          <button class="p2Button">+1 Player 2</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./pingpong.js"></script>
+</html>
